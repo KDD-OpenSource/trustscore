@@ -1,0 +1,94 @@
+{
+  "job": "gpt",
+  "who": "simon",
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "Decisions made by the model are biased against certain groups or individuals",
+          "O": 8.0,
+          "S": 5.0,
+          "D": 9.0
+        }
+      ],
+      "score": 7.113786608980125,
+      "ori_weight": 10.0,
+      "weight": 0.16666666666666669
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 2,
+          "question": "Repeated model executions do not generate the same or similar outputs",
+          "O": 1.0,
+          "S": 9.0,
+          "D": 10.0
+        }
+      ],
+      "score": 10.0,
+      "ori_weight": 5.0,
+      "weight": 0.13333333333333333
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 2,
+          "question": "Changes made to the model cannot be tracked",
+          "O": 1.0,
+          "S": 5.0,
+          "D": 1.0
+        }
+      ],
+      "score": 1.7099759466766968,
+      "ori_weight": 20.0,
+      "weight": 0.23333333333333334
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "The model\u2019s decision-making process is not transparent",
+          "O": 1.0,
+          "S": 8.0,
+          "D": 5.0
+        }
+      ],
+      "score": 3.4199518933533937,
+      "ori_weight": 20.0,
+      "weight": 0.23333333333333334
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 1,
+          "question": "Insufficient access control to proprietary model",
+          "O": 3.0,
+          "S": 2.0,
+          "D": 5.0
+        },
+        {
+          "todo": 2,
+          "question": "Erroneous decisions might lead to critical consequences",
+          "O": 5.0,
+          "S": 5.0,
+          "D": 1.0
+        }
+      ],
+      "score": 3.015625122083362,
+      "ori_weight": 20.0,
+      "weight": 0.23333333333333334
+    }
+  ],
+  "result": 4.419593459323159
+}

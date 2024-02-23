@@ -46,9 +46,9 @@ def read_positive_number(prompt):
 
 def fmea(prob):
     print("Evaluating the problem: ", prob)
-    O=read_number("Occurrence (O) [1 bad, 10 good]: ")
-    S=read_number("Significance (S) [1 bad, 10 good]: ")
-    D=read_number("Detection Probability (D) [1 bad, 10 good]: ")
+    O=read_number("Occurrence (O) [0 unforgivable, 1 bad, 9 good, 10 all good]: ")
+    S=read_number("Significance (S) [0 unforgivable, 1 bad, 9 good, 10 all good]: ")
+    D=read_number("Detection Probability (D) [0 unforgivable, 1 bad, 9 good, 10 all good]: ")
     return {"O":O, "S":S, "D":D}
 
 def boolean(prompt,exp=""):
@@ -82,15 +82,18 @@ def chooseMany(prompt, options, maxcou=3):
     return ret
 
 def subsubscore(dic):
+    vals=[dic["O"],dic["S"],dic["D"]]
+    if 0 in vals:return 0
+    if 10 in vals:return 10
     return (dic["O"]*dic["S"]*dic["D"])**(1/3)
 
 def subscore(dics):
     return np.mean([subsubscore(dic) for dic in dics])
 
-def weightmod(weights):
-    weigths=np.array(weights)
-    weigths=0.1+weigths/(2*np.sum(weigths))
-    return weights
+def weightmod(w):
+    w=np.array(w)
+    w=0.1+w/(2*np.sum(w))
+    return w
 
 def score(infs):
     for inf in infs:
@@ -108,6 +111,8 @@ infos=[]
 
 
 for taski,task in enumerate(subtasks):
+    dics=[]
+    ev=1.0
     while True:
         print(f"Subtask {taski+1}/{len(subtasks)}: {task}")
         todoo=chooseMany("Please select the problems you want to evaluate", questions[taski])
@@ -130,6 +135,9 @@ for taski,task in enumerate(subtasks):
 
 print("Thank you for your input so far. We will now require weights for each task. They will automatically be normalized")
 for info in infos:
+    print(f"The questions for {info['task']} are")
+    for dic in info["dics"]:
+        print(dic["question"])
     info["ori_weight"]=read_positive_number(f"Please enter the weight for the task {info['task']}: ")
 
 weights=[info["ori_weight"] for info in infos]
@@ -142,7 +150,7 @@ result=score(infos)
 print(f"Your trust score is {result}")
 
 if boolean("Do you want to save this result?", "y"):
-    fn=f"score_{job}_{who}.json"
+    fn=f"results/score_{job}_{who}.json"
 
     if os.path.exists(fn):
         if not boolean(f"The file {fn} already exists. Do you want to overwrite it?","y"):
