@@ -1,0 +1,87 @@
+{
+  "job": "celeba",
+  "who": "nair",
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "The dataset is not representative of the application (sampling bias)",
+          "O": 3.0,
+          "S": 2.0,
+          "D": 7.0
+        }
+      ],
+      "score": 3.4760266448864496,
+      "ori_weight": 8.0,
+      "weight": 0.20526315789473684
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 4,
+          "question": "The data is susceptible to distribution shifts",
+          "O": 4.0,
+          "S": 4.0,
+          "D": 6.0
+        }
+      ],
+      "score": 4.5788569702133275,
+      "ori_weight": 8.0,
+      "weight": 0.20526315789473684
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 5,
+          "question": "Pronounced labeling uncertainties cannot be ruled out",
+          "O": 5.0,
+          "S": 5.0,
+          "D": 5.0
+        }
+      ],
+      "score": 5.0,
+      "ori_weight": 8.0,
+      "weight": 0.20526315789473684
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "No documentation of the data collection and annotation process",
+          "O": 3.0,
+          "S": 2.0,
+          "D": 2.0
+        }
+      ],
+      "score": 2.2894284851066637,
+      "ori_weight": 9.0,
+      "weight": 0.21842105263157896
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 5,
+          "question": "Lack of transparent data governance policies (e.g., data usage agreements)",
+          "O": 5.0,
+          "S": 5.0,
+          "D": 5.0
+        }
+      ],
+      "score": 5.0,
+      "ori_weight": 5.0,
+      "weight": 0.16578947368421054
+    }
+  ],
+  "result": 4.00869338484641
+}

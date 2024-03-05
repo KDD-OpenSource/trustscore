@@ -1,0 +1,87 @@
+{
+  "job": "gpt",
+  "who": "FrNi",
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 1,
+          "question": "User inputs are requested in a biased manner",
+          "O": 8.0,
+          "S": 7.0,
+          "D": 6.0
+        }
+      ],
+      "score": 6.952053289772898,
+      "ori_weight": 1.0,
+      "weight": 0.2
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 1,
+          "question": "The model does not generalize to different datasets",
+          "O": 7.0,
+          "S": 7.0,
+          "D": 7.0
+        }
+      ],
+      "score": 6.999999999999999,
+      "ori_weight": 1.0,
+      "weight": 0.2
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "It cannot be guaranteed, that the model was not tampered with",
+          "O": 5.0,
+          "S": 5.0,
+          "D": 5.0
+        }
+      ],
+      "score": 5.0,
+      "ori_weight": 1.0,
+      "weight": 0.2
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "The model\u2019s decision-making process is not transparent",
+          "O": 6.0,
+          "S": 6.0,
+          "D": 6.0
+        }
+      ],
+      "score": 5.999999999999999,
+      "ori_weight": 1.0,
+      "weight": 0.2
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 2,
+          "question": "Erroneous decisions might lead to critical consequences",
+          "O": 7.0,
+          "S": 8.0,
+          "D": 6.0
+        }
+      ],
+      "score": 6.952053289772898,
+      "ori_weight": 1.0,
+      "weight": 0.2
+    }
+  ],
+  "result": 6.380821315909159
+}

@@ -1,0 +1,87 @@
+{
+  "job": "celeba",
+  "who": "babak",
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "The dataset is not representative of the application (sampling bias)",
+          "O": 8.0,
+          "S": 5.0,
+          "D": 4.0
+        }
+      ],
+      "score": 5.428835233189813,
+      "ori_weight": 0.2,
+      "weight": 0.2
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "The dataset does not contain edge cases or outliers",
+          "O": 3.0,
+          "S": 6.0,
+          "D": 7.0
+        }
+      ],
+      "score": 5.0132979349645845,
+      "ori_weight": 0.2,
+      "weight": 0.2
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 5,
+          "question": "Pronounced labeling uncertainties cannot be ruled out",
+          "O": 8.0,
+          "S": 5.0,
+          "D": 8.0
+        }
+      ],
+      "score": 6.839903786706787,
+      "ori_weight": 0.2,
+      "weight": 0.2
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "No documentation of the data collection and annotation process",
+          "O": 7.0,
+          "S": 8.0,
+          "D": 5.0
+        }
+      ],
+      "score": 6.542132620377179,
+      "ori_weight": 0.2,
+      "weight": 0.2
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 4,
+          "question": "Exposure of sensitive information through metadata or auxiliary data",
+          "O": 6.0,
+          "S": 5.0,
+          "D": 5.0
+        }
+      ],
+      "score": 5.313292845913055,
+      "ori_weight": 0.2,
+      "weight": 0.2
+    }
+  ],
+  "result": 5.827492484230283
+}

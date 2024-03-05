@@ -1,0 +1,87 @@
+{
+  "job": "yolo",
+  "who": "michael",
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "Decisions made by the model are biased against certain groups or individuals",
+          "O": 5.0,
+          "S": 3.0,
+          "D": 5.0
+        }
+      ],
+      "score": 4.217163326508746,
+      "ori_weight": 2.0,
+      "weight": 0.1588235294117647
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 1,
+          "question": "The model does not generalize to different datasets",
+          "O": 4.0,
+          "S": 2.0,
+          "D": 9.0
+        }
+      ],
+      "score": 4.160167646103808,
+      "ori_weight": 5.0,
+      "weight": 0.24705882352941178
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 1,
+          "question": "No output uncertainties are given",
+          "O": 8.0,
+          "S": 5.0,
+          "D": 9.0
+        }
+      ],
+      "score": 7.113786608980125,
+      "ori_weight": 1.0,
+      "weight": 0.12941176470588237
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "The model\u2019s decision-making process is not transparent",
+          "O": 1.0,
+          "S": 7.0,
+          "D": 7.0
+        }
+      ],
+      "score": 3.6593057100229713,
+      "ori_weight": 2.0,
+      "weight": 0.1588235294117647
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 2,
+          "question": "Erroneous decisions might lead to critical consequences",
+          "O": 7.0,
+          "S": 3.0,
+          "D": 5.0
+        }
+      ],
+      "score": 4.7176939803165325,
+      "ori_weight": 7.0,
+      "weight": 0.3058823529411765
+    }
+  ],
+  "result": 4.642441749980817
+}

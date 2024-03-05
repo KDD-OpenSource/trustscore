@@ -1,0 +1,87 @@
+{
+  "job": "celeba",
+  "who": "niklas",
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "Decisions made by the model are biased against certain groups or individuals",
+          "O": 6.0,
+          "S": 3.0,
+          "D": 4.0
+        }
+      ],
+      "score": 4.160167646103808,
+      "ori_weight": 10.0,
+      "weight": 0.21627906976744188
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "The dataset does not contain edge cases or outliers",
+          "O": 0.0,
+          "S": 3.0,
+          "D": 7.0
+        }
+      ],
+      "score": 0.0,
+      "ori_weight": 10.0,
+      "weight": 0.21627906976744188
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "It cannot be guaranteed, that the data was not tampered with",
+          "O": 9.0,
+          "S": 7.0,
+          "D": 8.0
+        }
+      ],
+      "score": 7.958114415792783,
+      "ori_weight": 5.0,
+      "weight": 0.15813953488372093
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 5,
+          "question": "Lack of clarity on how missing values or outliers are handled in the dataset",
+          "O": 3.0,
+          "S": 3.0,
+          "D": 7.0
+        }
+      ],
+      "score": 3.9790572078963917,
+      "ori_weight": 10.0,
+      "weight": 0.21627906976744188
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 4,
+          "question": "Exposure of sensitive information through metadata or auxiliary data",
+          "O": 9.0,
+          "S": 4.0,
+          "D": 3.0
+        }
+      ],
+      "score": 4.762203155904598,
+      "ori_weight": 8.0,
+      "weight": 0.1930232558139535
+    }
+  ],
+  "result": 0.0
+}

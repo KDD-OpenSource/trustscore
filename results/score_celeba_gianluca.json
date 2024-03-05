@@ -1,0 +1,122 @@
+{
+  "job": "celeba",
+  "who": "gianluca",
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "Decisions made by the model are biased against certain groups or individuals",
+          "O": 3.0,
+          "S": 3.0,
+          "D": 8.0
+        },
+        {
+          "todo": 3,
+          "question": "The dataset is not representative of the application (sampling bias)",
+          "O": 3.0,
+          "S": 3.0,
+          "D": 8.0
+        }
+      ],
+      "score": 4.160167646103808,
+      "ori_weight": 1.0,
+      "weight": 0.14545454545454545
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 1,
+          "question": "The model does not generalize to different datasets",
+          "O": 4.0,
+          "S": 6.0,
+          "D": 4.0
+        },
+        {
+          "todo": 3,
+          "question": "The dataset does not contain edge cases or outliers",
+          "O": 5.0,
+          "S": 5.0,
+          "D": 8.0
+        }
+      ],
+      "score": 5.213446223319529,
+      "ori_weight": 1.0,
+      "weight": 0.14545454545454545
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "It cannot be guaranteed, that the data was not tampered with",
+          "O": 8.0,
+          "S": 9.0,
+          "D": 9.0
+        },
+        {
+          "todo": 0,
+          "question": "It cannot be guaranteed, that the model was not tampered with",
+          "O": 8.0,
+          "S": 8.0,
+          "D": 9.0
+        }
+      ],
+      "score": 8.486916357026033,
+      "ori_weight": 2.0,
+      "weight": 0.19090909090909092
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 1,
+          "question": "The model\u2019s architecture is unknown or prohibits its interpretation",
+          "O": 10.0,
+          "S": 10.0,
+          "D": 10.0
+        },
+        {
+          "todo": 4,
+          "question": "The dataset is not human understandable",
+          "O": 10.0,
+          "S": 10.0,
+          "D": 10.0
+        }
+      ],
+      "score": 10.0,
+      "ori_weight": 3.0,
+      "weight": 0.23636363636363636
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 5,
+          "question": "Lack of transparent data governance policies (e.g., data usage agreements)",
+          "O": 4.0,
+          "S": 2.0,
+          "D": 2.0
+        },
+        {
+          "todo": 0,
+          "question": "Decisions or internal representations could reveal sensitive information",
+          "O": 7.0,
+          "S": 8.0,
+          "D": 3.0
+        }
+      ],
+      "score": 4.018845226275993,
+      "ori_weight": 4.0,
+      "weight": 0.28181818181818186
+    }
+  ],
+  "result": 6.479884249298872
+}

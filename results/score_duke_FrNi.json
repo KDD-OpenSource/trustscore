@@ -1,0 +1,87 @@
+{
+  "job": "duke",
+  "who": "FrNi",
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 5,
+          "question": "The dataset perpetuates biases (e.g., is generated from unfiltered web data)",
+          "O": 2.0,
+          "S": 2.0,
+          "D": 2.0
+        }
+      ],
+      "score": 2.0,
+      "ori_weight": 1.0,
+      "weight": 0.2
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 5,
+          "question": "The data contains harmful anomalies or perturbations",
+          "O": 1.0,
+          "S": 1.0,
+          "D": 1.0
+        }
+      ],
+      "score": 1.0,
+      "ori_weight": 1.0,
+      "weight": 0.2
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 5,
+          "question": "Pronounced labeling uncertainties cannot be ruled out",
+          "O": 4.0,
+          "S": 3.0,
+          "D": 8.0
+        }
+      ],
+      "score": 4.5788569702133275,
+      "ori_weight": 1.0,
+      "weight": 0.2
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 5,
+          "question": "Lack of clarity on how missing values or outliers are handled in the dataset",
+          "O": 6.0,
+          "S": 6.0,
+          "D": 5.0
+        }
+      ],
+      "score": 5.64621617328617,
+      "ori_weight": 1.0,
+      "weight": 0.2
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 5,
+          "question": "Lack of transparent data governance policies (e.g., data usage agreements)",
+          "O": 2.0,
+          "S": 2.0,
+          "D": 2.0
+        }
+      ],
+      "score": 2.0,
+      "ori_weight": 1.0,
+      "weight": 0.2
+    }
+  ],
+  "result": 3.0450146286998994
+}

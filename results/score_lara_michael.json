@@ -1,0 +1,87 @@
+{
+  "job": "lara",
+  "who": "michael",
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "The dataset is not representative of the application (sampling bias)",
+          "O": 8.0,
+          "S": 2.0,
+          "D": 8.0
+        }
+      ],
+      "score": 5.039684199579492,
+      "ori_weight": 4.0,
+      "weight": 0.24285714285714285
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "The dataset does not contain edge cases or outliers",
+          "O": 2.0,
+          "S": 3.0,
+          "D": 3.0
+        }
+      ],
+      "score": 2.6207413942088964,
+      "ori_weight": 4.0,
+      "weight": 0.24285714285714285
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 5,
+          "question": "Pronounced labeling uncertainties cannot be ruled out",
+          "O": 1.0,
+          "S": 4.0,
+          "D": 5.0
+        }
+      ],
+      "score": 2.7144176165949063,
+      "ori_weight": 1.0,
+      "weight": 0.13571428571428573
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "No documentation of the data collection and annotation process",
+          "O": 10.0,
+          "S": 3.0,
+          "D": 10.0
+        }
+      ],
+      "score": 10.0,
+      "ori_weight": 2.0,
+      "weight": 0.17142857142857143
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 2,
+          "question": "Erroneous decisions might lead to critical consequences",
+          "O": 6.0,
+          "S": 2.0,
+          "D": 2.0
+        }
+      ],
+      "score": 2.8844991406148166,
+      "ori_weight": 3.0,
+      "weight": 0.20714285714285713
+    }
+  ],
+  "result": 4.5405634284424155
+}

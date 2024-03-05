@@ -1,0 +1,94 @@
+{
+  "job": "duke",
+  "who": "frederik",
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 4,
+          "question": "The dataset includes protected attributes",
+          "O": 0.0,
+          "S": 0.0,
+          "D": 6.0
+        }
+      ],
+      "score": 0.0,
+      "ori_weight": 8.0,
+      "weight": 0.225
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 4,
+          "question": "The data is susceptible to distribution shifts",
+          "O": 5.0,
+          "S": 4.0,
+          "D": 8.0
+        }
+      ],
+      "score": 5.428835233189813,
+      "ori_weight": 5.0,
+      "weight": 0.178125
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 5,
+          "question": "Pronounced labeling uncertainties cannot be ruled out",
+          "O": 6.0,
+          "S": 7.0,
+          "D": 3.0
+        }
+      ],
+      "score": 5.0132979349645845,
+      "ori_weight": 5.0,
+      "weight": 0.178125
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "No documentation of the data collection and annotation process",
+          "O": 8.0,
+          "S": 8.0,
+          "D": 8.0
+        }
+      ],
+      "score": 7.999999999999999,
+      "ori_weight": 4.0,
+      "weight": 0.1625
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 4,
+          "question": "Exposure of sensitive information through metadata or auxiliary data",
+          "O": 2.0,
+          "S": 2.0,
+          "D": 3.0
+        },
+        {
+          "todo": 5,
+          "question": "Lack of transparent data governance policies (e.g., data usage agreements)",
+          "O": 1.0,
+          "S": 1.0,
+          "D": 2.0
+        }
+      ],
+      "score": 1.7746747675007684,
+      "ori_weight": 10.0,
+      "weight": 0.25625
+    }
+  ],
+  "result": 0.0
+}

@@ -1,0 +1,94 @@
+{
+  "job": "lara",
+  "who": "nair",
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 4,
+          "question": "The dataset includes protected attributes",
+          "O": 3.0,
+          "S": 3.0,
+          "D": 8.0
+        }
+      ],
+      "score": 4.160167646103808,
+      "ori_weight": 8.0,
+      "weight": 0.2
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "The dataset does not contain edge cases or outliers",
+          "O": 3.0,
+          "S": 3.0,
+          "D": 8.0
+        }
+      ],
+      "score": 4.160167646103808,
+      "ori_weight": 8.0,
+      "weight": 0.2
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 4,
+          "question": "Changes made to the data cannot be tracked",
+          "O": 10.0,
+          "S": 9.0,
+          "D": 9.0
+        },
+        {
+          "todo": 3,
+          "question": "It cannot be guaranteed, that the data was not tampered with",
+          "O": 10.0,
+          "S": 10.0,
+          "D": 10.0
+        }
+      ],
+      "score": 10.0,
+      "ori_weight": 8.0,
+      "weight": 0.2
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 5,
+          "question": "Lack of clarity on how missing values or outliers are handled in the dataset",
+          "O": 8.0,
+          "S": 9.0,
+          "D": 9.0
+        }
+      ],
+      "score": 8.653497421844449,
+      "ori_weight": 8.0,
+      "weight": 0.2
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 4,
+          "question": "Exposure of sensitive information through metadata or auxiliary data",
+          "O": 6.0,
+          "S": 6.0,
+          "D": 8.0
+        }
+      ],
+      "score": 6.603854497789253,
+      "ori_weight": 8.0,
+      "weight": 0.2
+    }
+  ],
+  "result": 6.715537442368264
+}

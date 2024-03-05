@@ -1,0 +1,87 @@
+{
+  "job": "gpt",
+  "who": "nair",
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 1,
+          "question": "User inputs are requested in a biased manner",
+          "O": 4.0,
+          "S": 4.0,
+          "D": 6.0
+        }
+      ],
+      "score": 4.5788569702133275,
+      "ori_weight": 4.0,
+      "weight": 0.16896551724137931
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "Risk of adversarial or inversion attacks not mitigated",
+          "O": 2.0,
+          "S": 2.0,
+          "D": 8.0
+        }
+      ],
+      "score": 3.1748021039363987,
+      "ori_weight": 5.0,
+      "weight": 0.18620689655172415
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 1,
+          "question": "No output uncertainties are given",
+          "O": 4.0,
+          "S": 4.0,
+          "D": 4.0
+        }
+      ],
+      "score": 3.9999999999999996,
+      "ori_weight": 7.0,
+      "weight": 0.2206896551724138
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "The model\u2019s decision-making process is not transparent",
+          "O": 5.0,
+          "S": 5.0,
+          "D": 5.0
+        }
+      ],
+      "score": 5.0,
+      "ori_weight": 5.0,
+      "weight": 0.18620689655172415
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "Decisions or internal representations could reveal sensitive information",
+          "O": 1.0,
+          "S": 1.0,
+          "D": 8.0
+        }
+      ],
+      "score": 2.0,
+      "ori_weight": 8.0,
+      "weight": 0.23793103448275862
+    }
+  ],
+  "result": 3.654494155700064
+}

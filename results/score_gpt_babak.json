@@ -1,0 +1,94 @@
+{
+  "job": "gpt",
+  "who": "babak",
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "Decisions made by the model are biased against certain groups or individuals",
+          "O": 3.0,
+          "S": 3.0,
+          "D": 5.0
+        }
+      ],
+      "score": 3.5568933044900626,
+      "ori_weight": 0.3,
+      "weight": 0.25
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 2,
+          "question": "Repeated model executions do not generate the same or similar outputs",
+          "O": 5.0,
+          "S": 4.0,
+          "D": 4.0
+        }
+      ],
+      "score": 4.308869380063767,
+      "ori_weight": 0.1,
+      "weight": 0.15000000000000002
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 2,
+          "question": "Changes made to the model cannot be tracked",
+          "O": 2.0,
+          "S": 3.0,
+          "D": 1.0
+        }
+      ],
+      "score": 1.8171205928321397,
+      "ori_weight": 0.1,
+      "weight": 0.15000000000000002
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "The model\u2019s decision-making process is not transparent",
+          "O": 3.0,
+          "S": 2.0,
+          "D": 5.0
+        },
+        {
+          "todo": 1,
+          "question": "The model\u2019s architecture is unknown or prohibits its interpretation",
+          "O": 4.0,
+          "S": 2.0,
+          "D": 5.0
+        }
+      ],
+      "score": 3.263592199653626,
+      "ori_weight": 0.3,
+      "weight": 0.25
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 1,
+          "question": "Insufficient access control to proprietary model",
+          "O": 7.0,
+          "S": 6.0,
+          "D": 4.0
+        }
+      ],
+      "score": 5.517848352762241,
+      "ori_weight": 0.2,
+      "weight": 0.2
+    }
+  ],
+  "result": 3.7275895425227565
+}

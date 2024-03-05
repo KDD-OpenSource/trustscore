@@ -1,0 +1,87 @@
+{
+  "job": "googlenet",
+  "who": "babak",
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 2,
+          "question": "Performance differs for certain groups or can only be applied to certain groups",
+          "O": 4.0,
+          "S": 3.0,
+          "D": 3.0
+        }
+      ],
+      "score": 3.3019272488946263,
+      "ori_weight": 0.2,
+      "weight": 0.2
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 1,
+          "question": "The model does not generalize to different datasets",
+          "O": 3.0,
+          "S": 3.0,
+          "D": 2.0
+        }
+      ],
+      "score": 2.6207413942088964,
+      "ori_weight": 0.2,
+      "weight": 0.2
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 1,
+          "question": "No output uncertainties are given",
+          "O": 4.0,
+          "S": 4.0,
+          "D": 3.0
+        }
+      ],
+      "score": 3.634241185664279,
+      "ori_weight": 0.2,
+      "weight": 0.2
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "The model\u2019s decision-making process is not transparent",
+          "O": 2.0,
+          "S": 4.0,
+          "D": 4.0
+        }
+      ],
+      "score": 3.1748021039363987,
+      "ori_weight": 0.2,
+      "weight": 0.2
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 1,
+          "question": "Insufficient access control to proprietary model",
+          "O": 8.0,
+          "S": 7.0,
+          "D": 8.0
+        }
+      ],
+      "score": 7.651724731089556,
+      "ori_weight": 0.2,
+      "weight": 0.2
+    }
+  ],
+  "result": 4.076687332758751
+}

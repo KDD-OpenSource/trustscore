@@ -1,0 +1,94 @@
+{
+  "job": "gpt",
+  "who": "michael",
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "Decisions made by the model are biased against certain groups or individuals",
+          "O": 5.0,
+          "S": 3.0,
+          "D": 8.0
+        },
+        {
+          "todo": 5,
+          "question": "The dataset perpetuates biases (e.g., is generated from unfiltered web data)",
+          "O": 1.0,
+          "S": 1.0,
+          "D": 9.0
+        }
+      ],
+      "score": 3.506253985856422,
+      "ori_weight": 2.0,
+      "weight": 0.2
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 1,
+          "question": "The model does not generalize to different datasets",
+          "O": 8.0,
+          "S": 5.0,
+          "D": 2.0
+        }
+      ],
+      "score": 4.308869380063767,
+      "ori_weight": 1.0,
+      "weight": 0.15000000000000002
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "It cannot be guaranteed, that the model was not tampered with",
+          "O": 4.0,
+          "S": 6.0,
+          "D": 3.0
+        }
+      ],
+      "score": 4.160167646103808,
+      "ori_weight": 1.0,
+      "weight": 0.15000000000000002
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "The model\u2019s decision-making process is not transparent",
+          "O": 0.0,
+          "S": 1.0,
+          "D": 9.0
+        }
+      ],
+      "score": 0.0,
+      "ori_weight": 3.0,
+      "weight": 0.25
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "Decisions or internal representations could reveal sensitive information",
+          "O": 2.0,
+          "S": 2.0,
+          "D": 2.0
+        }
+      ],
+      "score": 2.0,
+      "ori_weight": 3.0,
+      "weight": 0.25
+    }
+  ],
+  "result": 0.0
+}
