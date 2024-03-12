@@ -1,0 +1,108 @@
+{
+  "job": "duke",
+  "who": 4,
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 4,
+          "question": "The dataset includes protected attributes",
+          "O": 1.0,
+          "S": 3.0,
+          "D": 3.0
+        }
+      ],
+      "score": 2.080083823051904,
+      "ori_weight": 10.0,
+      "weight": 0.32727272727272727
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 4,
+          "question": "The data is susceptible to distribution shifts",
+          "O": 4.0,
+          "S": 10.0,
+          "D": 9.0
+        }
+      ],
+      "score": 10.0,
+      "ori_weight": 0.0,
+      "weight": 0.1
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 4,
+          "question": "Changes made to the data cannot be tracked",
+          "O": 1.0,
+          "S": 10.0,
+          "D": 10.0
+        },
+        {
+          "todo": 5,
+          "question": "Pronounced labeling uncertainties cannot be ruled out",
+          "O": 5.0,
+          "S": 8.0,
+          "D": 3.0
+        }
+      ],
+      "score": 7.466212074330469,
+      "ori_weight": 2.0,
+      "weight": 0.14545454545454545
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "No documentation of the data collection and annotation process",
+          "O": 10.0,
+          "S": 7.0,
+          "D": 10.0
+        }
+      ],
+      "score": 10.0,
+      "ori_weight": 0.0,
+      "weight": 0.1
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "Insufficient access control to proprietary data",
+          "O": 1.0,
+          "S": 3.0,
+          "D": 3.0
+        },
+        {
+          "todo": 4,
+          "question": "Exposure of sensitive information through metadata or auxiliary data",
+          "O": 1.0,
+          "S": 3.0,
+          "D": 3.0
+        },
+        {
+          "todo": 5,
+          "question": "Lack of transparent data governance policies (e.g., data usage agreements)",
+          "O": 1.0,
+          "S": 3.0,
+          "D": 3.0
+        }
+      ],
+      "score": 2.080083823051904,
+      "ori_weight": 10.0,
+      "weight": 0.32727272727272727
+    }
+  ],
+  "result": 4.447503894991132
+}

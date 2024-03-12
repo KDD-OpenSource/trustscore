@@ -1,0 +1,87 @@
+{
+  "job": "duke",
+  "who": 6,
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 5,
+          "question": "The dataset perpetuates biases (e.g., is generated from unfiltered web data)",
+          "O": 3.0,
+          "S": 1.0,
+          "D": 7.0
+        }
+      ],
+      "score": 2.7589241763811203,
+      "ori_weight": 19.0,
+      "weight": 0.23768115942028986
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "Risk of adversarial or inversion attacks not mitigated",
+          "O": 7.0,
+          "S": 5.0,
+          "D": 8.0
+        }
+      ],
+      "score": 6.542132620377179,
+      "ori_weight": 5.0,
+      "weight": 0.13623188405797101
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 5,
+          "question": "Pronounced labeling uncertainties cannot be ruled out",
+          "O": 3.0,
+          "S": 6.0,
+          "D": 2.0
+        }
+      ],
+      "score": 3.3019272488946263,
+      "ori_weight": 15.0,
+      "weight": 0.20869565217391306
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "No documentation of the data collection and annotation process",
+          "O": 9.0,
+          "S": 7.0,
+          "D": 9.0
+        }
+      ],
+      "score": 8.276772529143361,
+      "ori_weight": 15.0,
+      "weight": 0.20869565217391306
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 5,
+          "question": "Lack of transparent data governance policies (e.g., data usage agreements)",
+          "O": 0.0,
+          "S": 0.0,
+          "D": 8.0
+        }
+      ],
+      "score": 0.0,
+      "ori_weight": 15.0,
+      "weight": 0.20869565217391306
+    }
+  ],
+  "result": 0.0
+}

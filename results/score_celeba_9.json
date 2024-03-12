@@ -1,0 +1,115 @@
+{
+  "job": "celeba",
+  "who": 9,
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "The dataset is not representative of the application (sampling bias)",
+          "O": 3.0,
+          "S": 2.0,
+          "D": 4.0
+        },
+        {
+          "todo": 4,
+          "question": "The dataset includes protected attributes",
+          "O": 10.0,
+          "S": 10.0,
+          "D": 5.0
+        }
+      ],
+      "score": 6.442249570307409,
+      "ori_weight": 8.0,
+      "weight": 0.23333333333333334
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "The dataset does not contain edge cases or outliers",
+          "O": 4.0,
+          "S": 2.0,
+          "D": 3.0
+        },
+        {
+          "todo": 5,
+          "question": "The data contains harmful anomalies or perturbations",
+          "O": 8.0,
+          "S": 5.0,
+          "D": 3.0
+        }
+      ],
+      "score": 3.908461644637878,
+      "ori_weight": 8.0,
+      "weight": 0.23333333333333334
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "It cannot be guaranteed, that the data was not tampered with",
+          "O": 8.0,
+          "S": 3.0,
+          "D": 8.0
+        },
+        {
+          "todo": 5,
+          "question": "Pronounced labeling uncertainties cannot be ruled out",
+          "O": 8.0,
+          "S": 4.0,
+          "D": 3.0
+        }
+      ],
+      "score": 5.173927625721481,
+      "ori_weight": 4.0,
+      "weight": 0.16666666666666669
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 4,
+          "question": "The dataset is not human understandable",
+          "O": 10.0,
+          "S": 3.0,
+          "D": 8.0
+        }
+      ],
+      "score": 10.0,
+      "ori_weight": 6.0,
+      "weight": 0.2
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "Insufficient access control to proprietary data",
+          "O": 8.0,
+          "S": 2.0,
+          "D": 2.0
+        },
+        {
+          "todo": 4,
+          "question": "Exposure of sensitive information through metadata or auxiliary data",
+          "O": 8.0,
+          "S": 4.0,
+          "D": 2.0
+        }
+      ],
+      "score": 3.5874010519681994,
+      "ori_weight": 4.0,
+      "weight": 0.16666666666666669
+    }
+  ],
+  "result": 5.875387396435514
+}

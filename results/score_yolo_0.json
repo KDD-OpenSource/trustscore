@@ -1,0 +1,87 @@
+{
+  "job": "yolo",
+  "who": 0,
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 2,
+          "question": "Performance differs for certain groups or can only be applied to certain groups",
+          "O": 7.0,
+          "S": 7.0,
+          "D": 7.0
+        }
+      ],
+      "score": 6.999999999999999,
+      "ori_weight": 5.0,
+      "weight": 0.2
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 1,
+          "question": "The model does not generalize to different datasets",
+          "O": 9.0,
+          "S": 9.0,
+          "D": 9.0
+        }
+      ],
+      "score": 8.999999999999998,
+      "ori_weight": 5.0,
+      "weight": 0.2
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 2,
+          "question": "Changes made to the model cannot be tracked",
+          "O": 8.0,
+          "S": 8.0,
+          "D": 8.0
+        }
+      ],
+      "score": 7.999999999999999,
+      "ori_weight": 5.0,
+      "weight": 0.2
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 1,
+          "question": "The model\u2019s architecture is unknown or prohibits its interpretation",
+          "O": 9.0,
+          "S": 9.0,
+          "D": 9.0
+        }
+      ],
+      "score": 8.999999999999998,
+      "ori_weight": 5.0,
+      "weight": 0.2
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "Decisions or internal representations could reveal sensitive information",
+          "O": 9.0,
+          "S": 9.0,
+          "D": 9.0
+        }
+      ],
+      "score": 8.999999999999998,
+      "ori_weight": 5.0,
+      "weight": 0.2
+    }
+  ],
+  "result": 8.399999999999999
+}

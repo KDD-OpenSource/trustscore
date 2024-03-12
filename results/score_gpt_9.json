@@ -1,0 +1,115 @@
+{
+  "job": "gpt",
+  "who": 9,
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "Decisions made by the model are biased against certain groups or individuals",
+          "O": 3.0,
+          "S": 2.0,
+          "D": 3.0
+        },
+        {
+          "todo": 2,
+          "question": "Performance differs for certain groups or can only be applied to certain groups",
+          "O": 4.0,
+          "S": 4.0,
+          "D": 7.0
+        }
+      ],
+      "score": 3.720512961279678,
+      "ori_weight": 3.0,
+      "weight": 0.15555555555555556
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "Risk of adversarial or inversion attacks not mitigated",
+          "O": 5.0,
+          "S": 3.0,
+          "D": 1.0
+        },
+        {
+          "todo": 2,
+          "question": "Repeated model executions do not generate the same or similar outputs",
+          "O": 7.0,
+          "S": 3.0,
+          "D": 7.0
+        }
+      ],
+      "score": 3.8719220811172734,
+      "ori_weight": 6.0,
+      "weight": 0.2111111111111111
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 1,
+          "question": "No output uncertainties are given",
+          "O": 1.0,
+          "S": 4.0,
+          "D": 8.0
+        },
+        {
+          "todo": 0,
+          "question": "It cannot be guaranteed, that the model was not tampered with",
+          "O": 5.0,
+          "S": 2.0,
+          "D": 2.0
+        }
+      ],
+      "score": 2.9446098602656523,
+      "ori_weight": 6.0,
+      "weight": 0.2111111111111111
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "The model\u2019s decision-making process is not transparent",
+          "O": 2.0,
+          "S": 5.0,
+          "D": 5.0
+        }
+      ],
+      "score": 3.6840314986403864,
+      "ori_weight": 4.0,
+      "weight": 0.17407407407407408
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "Decisions or internal representations could reveal sensitive information",
+          "O": 7.0,
+          "S": 1.0,
+          "D": 2.0
+        },
+        {
+          "todo": 1,
+          "question": "Insufficient access control to proprietary model",
+          "O": 4.0,
+          "S": 2.0,
+          "D": 8.0
+        }
+      ],
+      "score": 3.205071132087615,
+      "ori_weight": 8.0,
+      "weight": 0.24814814814814815
+    }
+  ],
+  "result": 3.4544189308094135
+}

@@ -1,0 +1,87 @@
+{
+  "job": "celeba",
+  "who": 7,
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 4,
+          "question": "The dataset includes protected attributes",
+          "O": 5.0,
+          "S": 4.0,
+          "D": 3.0
+        }
+      ],
+      "score": 3.9148676411688634,
+      "ori_weight": 1.0,
+      "weight": 0.2
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 4,
+          "question": "The data is susceptible to distribution shifts",
+          "O": 5.0,
+          "S": 5.0,
+          "D": 4.0
+        }
+      ],
+      "score": 4.641588833612778,
+      "ori_weight": 1.0,
+      "weight": 0.2
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 4,
+          "question": "Changes made to the data cannot be tracked",
+          "O": 6.0,
+          "S": 7.0,
+          "D": 6.0
+        }
+      ],
+      "score": 6.316359597656378,
+      "ori_weight": 1.0,
+      "weight": 0.2
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 4,
+          "question": "The dataset is not human understandable",
+          "O": 8.0,
+          "S": 8.0,
+          "D": 7.0
+        }
+      ],
+      "score": 7.651724731089556,
+      "ori_weight": 1.0,
+      "weight": 0.2
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "Insufficient access control to proprietary data",
+          "O": 8.0,
+          "S": 9.0,
+          "D": 6.0
+        }
+      ],
+      "score": 7.559526299369238,
+      "ori_weight": 1.0,
+      "weight": 0.2
+    }
+  ],
+  "result": 6.0168134205793615
+}

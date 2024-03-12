@@ -1,0 +1,94 @@
+{
+  "job": "googlenet",
+  "who": 9,
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "Decisions made by the model are biased against certain groups or individuals",
+          "O": 10.0,
+          "S": 10.0,
+          "D": 10.0
+        }
+      ],
+      "score": 10.0,
+      "ori_weight": 5.0,
+      "weight": 0.19615384615384618
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 2,
+          "question": "Repeated model executions do not generate the same or similar outputs",
+          "O": 10.0,
+          "S": 10.0,
+          "D": 10.0
+        }
+      ],
+      "score": 10.0,
+      "ori_weight": 3.0,
+      "weight": 0.1576923076923077
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 1,
+          "question": "No output uncertainties are given",
+          "O": 2.0,
+          "S": 6.0,
+          "D": 8.0
+        }
+      ],
+      "score": 4.5788569702133275,
+      "ori_weight": 3.0,
+      "weight": 0.1576923076923077
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 2,
+          "question": "Stakeholders cannot validate the model\u2019s outputs",
+          "O": 5.0,
+          "S": 3.0,
+          "D": 7.0
+        },
+        {
+          "todo": 1,
+          "question": "The model\u2019s architecture is unknown or prohibits its interpretation",
+          "O": 8.0,
+          "S": 8.0,
+          "D": 9.0
+        }
+      ],
+      "score": 6.5190146362620744,
+      "ori_weight": 8.0,
+      "weight": 0.25384615384615383
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 2,
+          "question": "Erroneous decisions might lead to critical consequences",
+          "O": 7.0,
+          "S": 3.0,
+          "D": 2.0
+        }
+      ],
+      "score": 3.4760266448864496,
+      "ori_weight": 7.0,
+      "weight": 0.23461538461538461
+    }
+  ],
+  "result": 6.730868181192757
+}

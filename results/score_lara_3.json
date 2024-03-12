@@ -1,0 +1,87 @@
+{
+  "job": "lara",
+  "who": 3,
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 4,
+          "question": "The dataset includes protected attributes",
+          "O": 8.0,
+          "S": 9.0,
+          "D": 4.0
+        }
+      ],
+      "score": 6.603854497789253,
+      "ori_weight": 0.2,
+      "weight": 0.2
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "The dataset does not contain edge cases or outliers",
+          "O": 7.0,
+          "S": 4.0,
+          "D": 8.0
+        }
+      ],
+      "score": 6.0731779437513245,
+      "ori_weight": 0.2,
+      "weight": 0.2
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 4,
+          "question": "Changes made to the data cannot be tracked",
+          "O": 10.0,
+          "S": 7.0,
+          "D": 7.0
+        }
+      ],
+      "score": 10.0,
+      "ori_weight": 0.2,
+      "weight": 0.2
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "No documentation of the data collection and annotation process",
+          "O": 9.0,
+          "S": 8.0,
+          "D": 9.0
+        }
+      ],
+      "score": 8.653497421844449,
+      "ori_weight": 0.2,
+      "weight": 0.2
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 5,
+          "question": "Lack of transparent data governance policies (e.g., data usage agreements)",
+          "O": 9.0,
+          "S": 9.0,
+          "D": 6.0
+        }
+      ],
+      "score": 7.862224182626689,
+      "ori_weight": 0.2,
+      "weight": 0.2
+    }
+  ],
+  "result": 7.838550809202342
+}
