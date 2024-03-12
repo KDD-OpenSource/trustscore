@@ -7,6 +7,21 @@ import json
 
 from questions import questions, subtasks
 
+
+def meaning_string():
+    print("""| Occurrence (O)  | Significance (S)       | Detection (D)     |
+|-----------------|------------------------|-------------------|
+| Impossible (10) | Negligible (10)        | Certain (10)      |
+| Unlikely (9)    | Barely perceptible (9) | High (9)          |
+| Very low (7-8)  | Insignificant (7-8)    | Moderate (7-8)    |
+| Low (4-6)       | Moderate (4-6)         | Low (4-6)         |
+| Moderate (2-3)  | Severe (2-3)           | Very low (2-3)    |
+| High (1)        | Extremely severe (1)   | Unlikely (1)      |
+| Certain (0)     | Unacceptable (0)       | Impossible (0)    |""")
+
+
+
+
 def read_number(prompt):
     while True:
         try:
@@ -45,10 +60,11 @@ def read_positive_number(prompt):
 
 
 def fmea(prob):
+    meaning_string()
     print("Evaluating the problem: ", prob)
-    O=read_number("Occurrence (O) [0 unforgivable, 1 bad, 9 good, 10 all good]: ")
-    S=read_number("Significance (S) [0 unforgivable, 1 bad, 9 good, 10 all good]: ")
-    D=read_number("Detection Probability (D) [0 unforgivable, 1 bad, 9 good, 10 all good]: ")
+    O=read_number("Occurrence (O) [0 inexcusable, 1 bad, 9 good, 10 everything ok]: ")
+    S=read_number("Significance (S) [0 inexcusable, 1 bad, 9 good, 10 everything ok]: ")
+    D=read_number("Detection Probability (D) [0 inexcusable, 1 bad, 9 good, 10 everything ok]: ")
     return {"O":O, "S":S, "D":D}
 
 def boolean(prompt,exp=""):

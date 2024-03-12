@@ -1,0 +1,87 @@
+{
+  "job": "googlenet",
+  "who": "jerome",
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 2,
+          "question": "Performance differs for certain groups or can only be applied to certain groups",
+          "O": 3.0,
+          "S": 4.0,
+          "D": 4.0
+        }
+      ],
+      "score": 3.634241185664279,
+      "ori_weight": 0.2,
+      "weight": 0.2
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 1,
+          "question": "The model does not generalize to different datasets",
+          "O": 3.0,
+          "S": 6.0,
+          "D": 7.0
+        }
+      ],
+      "score": 5.0132979349645845,
+      "ori_weight": 0.2,
+      "weight": 0.2
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 1,
+          "question": "No output uncertainties are given",
+          "O": 4.0,
+          "S": 7.0,
+          "D": 9.0
+        }
+      ],
+      "score": 6.316359597656378,
+      "ori_weight": 0.2,
+      "weight": 0.2
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "The model\u2019s decision-making process is not transparent",
+          "O": 1.0,
+          "S": 1.0,
+          "D": 8.0
+        }
+      ],
+      "score": 2.0,
+      "ori_weight": 0.2,
+      "weight": 0.2
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 0,
+          "question": "Decisions or internal representations could reveal sensitive information",
+          "O": 3.0,
+          "S": 5.0,
+          "D": 1.0
+        }
+      ],
+      "score": 2.46621207433047,
+      "ori_weight": 0.2,
+      "weight": 0.2
+    }
+  ],
+  "result": 3.8860221585231423
+}

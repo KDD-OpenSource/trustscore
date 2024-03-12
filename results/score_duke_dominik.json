@@ -1,0 +1,87 @@
+{
+  "job": "duke",
+  "who": "dominik",
+  "infos": [
+    {
+      "taski": 0,
+      "task": "Fairness",
+      "dics": [
+        {
+          "todo": 4,
+          "question": "The dataset includes protected attributes",
+          "O": 3.0,
+          "S": 2.0,
+          "D": 3.0
+        }
+      ],
+      "score": 2.6207413942088964,
+      "ori_weight": 8.0,
+      "weight": 0.22121212121212122
+    },
+    {
+      "taski": 1,
+      "task": "Robustness",
+      "dics": [
+        {
+          "todo": 4,
+          "question": "The data is susceptible to distribution shifts",
+          "O": 4.0,
+          "S": 4.0,
+          "D": 5.0
+        }
+      ],
+      "score": 4.308869380063767,
+      "ori_weight": 4.0,
+      "weight": 0.1606060606060606
+    },
+    {
+      "taski": 2,
+      "task": "Integrity",
+      "dics": [
+        {
+          "todo": 4,
+          "question": "Changes made to the data cannot be tracked",
+          "O": 5.0,
+          "S": 2.0,
+          "D": 2.0
+        }
+      ],
+      "score": 2.7144176165949063,
+      "ori_weight": 8.0,
+      "weight": 0.22121212121212122
+    },
+    {
+      "taski": 3,
+      "task": "Explainability",
+      "dics": [
+        {
+          "todo": 3,
+          "question": "No documentation of the data collection and annotation process",
+          "O": 8.0,
+          "S": 8.0,
+          "D": 8.0
+        }
+      ],
+      "score": 7.999999999999999,
+      "ori_weight": 4.0,
+      "weight": 0.1606060606060606
+    },
+    {
+      "taski": 4,
+      "task": "Safety",
+      "dics": [
+        {
+          "todo": 4,
+          "question": "Exposure of sensitive information through metadata or auxiliary data",
+          "O": 4.0,
+          "S": 2.0,
+          "D": 2.0
+        }
+      ],
+      "score": 2.5198420997897464,
+      "ori_weight": 9.0,
+      "weight": 0.23636363636363636
+    }
+  ],
+  "result": 3.752679905198962
+}
